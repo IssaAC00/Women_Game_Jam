@@ -4,6 +4,7 @@
   "name": "Women-Game-Jam",
   "resources": [
     {"id":{"name":"devil","path":"sprites/devil/devil.yy",},"order":4,},
+    {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":3,},
     {"id":{"name":"FirstRoom_rm","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},"order":0,},
     {"id":{"name":"clickBoton_obj","path":"objects/clickBoton_obj/clickBoton_obj.yy",},"order":2,},
     {"id":{"name":"clue","path":"objects/clue/clue.yy",},"order":3,},
@@ -20,6 +21,7 @@
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":3,},
     {"id":{"name":"boton","path":"objects/boton/boton.yy",},"order":0,},
     {"id":{"name":"Sample1","path":"sprites/Sample1/Sample1.yy",},"order":0,},
+    {"id":{"name":"Final","path":"rooms/Final/Final.yy",},"order":4,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":4,},
     {"id":{"name":"Iniciio","path":"sprites/Iniciio/Iniciio.yy",},"order":1,},
     {"id":{"name":"Inicio","path":"rooms/Inicio/Inicio.yy",},"order":0,},
@@ -45,6 +47,7 @@
     {"roomId":{"name":"Inicio","path":"rooms/Inicio/Inicio.yy",},},
     {"roomId":{"name":"SecondPuzzel_rm","path":"rooms/SecondPuzzel_rm/SecondPuzzel_rm.yy",},},
     {"roomId":{"name":"FirstRoom_rm","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},},
+    {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
