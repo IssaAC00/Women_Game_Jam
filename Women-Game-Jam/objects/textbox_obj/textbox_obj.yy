@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Captura",
+  "name": "textbox_obj",
   "spriteId": {
     "name": "Sprite3",
     "path": "sprites/Sprite3/Sprite3.yy",

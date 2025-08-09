@@ -1,4 +1,6 @@
 // Dibujar campo de texto
+draw_set_font(OldNewsPaper);
+
 draw_set_color(c_white);
 draw_rectangle(x - 200, y - 30, x + 200, y + 30, false);
 draw_set_color(c_black);
