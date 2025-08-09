@@ -3,28 +3,28 @@
 
 
 if (is_active) {
-    // Capturar texto del teclado
-    if (keyboard_string != "") {
-        user_text += keyboard_string;
-        keyboard_string = ""; // Limpiar buffer
-        
-        // Limitar longitud
-        if (string_length(user_text) > max_length) {
-            user_text = string_copy(user_text, 1, max_length);
+    var key_pressed = keyboard_lastchar;
+    
+    if (key_pressed != "" && string_length(text_input) < max_length) {
+        if (key_pressed >= "a" && key_pressed <= "z") || (key_pressed >= "A" && key_pressed <= "Z") {
+            text_input += string_lower(key_pressed);
+            keyboard_lastchar = "";
         }
     }
     
-    // Backspace para borrar
-    if (keyboard_check_pressed(vk_backspace)) {
-        if (string_length(user_text) > 0) {
-            user_text = string_copy(user_text, 1, string_length(user_text) - 1);
-        }
+    if (keyboard_check_pressed(vk_backspace) && string_length(text_input) > 0) {
+        text_input = string_delete(text_input, string_length(text_input), 1);
     }
     
-    // Enter para confirmar
     if (keyboard_check_pressed(vk_enter)) {
-        // Procesar el texto ingresado
-        process_text(user_text);
-        user_text = ""; // Limpiar
+        if (text_input == "justicia") {
+            feedback_message = "¡Correcto!";
+            alarm[0] = 60;
+            is_active = false;
+        } else {
+            feedback_message = "Incorrecto. Intenta de nuevo.";
+            text_input = "";
+            alarm[1] = 120;
+        }
     }
 }
