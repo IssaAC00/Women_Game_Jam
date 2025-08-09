@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "boton",
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "Sprite9",
+    "path": "sprites/Sprite9/Sprite9.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "testing_Obj",
-    "path": "folders/Objects/testing_Obj.yy",
+    "name": "coreObj",
+    "path": "folders/Objects/coreObj.yy",
   },
 }
