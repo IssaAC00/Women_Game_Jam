@@ -6,7 +6,7 @@
 image_alpha = 0;
 
 // Configuración del botón
-target_room = SecondPuzzel_rm; // La room a la que quieres ir
+target_room = FirstRoom_rm; // La room a la que quieres ir
 hover_effect = false; // Para efectos visuales opcionales
 pressed = false;
 
