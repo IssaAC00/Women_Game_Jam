@@ -17,7 +17,7 @@ draw_text(x, y, display_text);
 
 // Mensaje de retroalimentación
 if (feedback_message != "") {
-    draw_set_color(feedback_message == "¡Correcto!" ? c_green : c_red);
+    draw_set_color(feedback_message == "Correcto!" ? c_green : c_red);
     draw_text(x, y + 50, feedback_message);
 }
 

@@ -17,8 +17,8 @@ if (is_active) {
     }
     
     if (keyboard_check_pressed(vk_enter)) {
-        if (text_input == "justicia") {
-            feedback_message = "¡Correcto!";
+        if (text_input == "condena") {
+            feedback_message = "Correcto!";
             alarm[0] = 60;
             is_active = false;
         } else {

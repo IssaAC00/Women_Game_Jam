@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 
-room_goto(FirstRoom_rm);
+draw_text(x, y - 80, "Pista: _ o _ _ _ n _");

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite8",
+  "name": "justieces",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -11,15 +11,15 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 639,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 852,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "DynamicTexturePage": false,
-  "width": 64,
-  "height": 64,
+  "width": 640,
+  "height": 853,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -28,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db74c47f-fc55-4535-891e-5872a655871e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"57ff42ff-729a-48c6-ac2b-2c4dd8179352",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite8",
+    "name": "justieces",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c353bb45-a320-41c2-964a-b50a6e18475f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db74c47f-fc55-4535-891e-5872a655871e","path":"sprites/Sprite8/Sprite8.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ba939955-e523-4adb-81d2-8a0d97ac8ea6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57ff42ff-729a-48c6-ac2b-2c4dd8179352","path":"sprites/justieces/justieces.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2084e847-8d28-4ec8-a436-c0c9130939cc","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d9a344e-3d36-44b7-8b0e-a73e6bc16b7e","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Women-Game-Jam",
-    "path": "Women-Game-Jam.yyp",
+    "name": "Tarot",
+    "path": "folders/Sprites/Tarot.yy",
   },
 }
