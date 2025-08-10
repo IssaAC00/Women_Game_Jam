@@ -8,9 +8,23 @@ global.contador_respuestas += 1;
 // Verificar si llegó a 9
 if (global.contador_respuestas >= 2) {
     room_goto(Final); // Cambiar a la room "final"
-} else {
-    // Aquí puedes agregar código para continuar al siguiente puzzle
-    // Por ejemplo: room_goto_next(); o room_goto(siguiente_room);
-	room_goto(FirstRoom_rm);
+} 
+
+switch(global.room_origin) {
+    case "first":
+        room_goto(FirstRoom_rm);
+        break;
+    case "second":
+        room_goto(SecondRoom_rm);
+        break;
+    case "last":
+        room_goto(LastRoom_rm);
+        break;
+    default:
+        room_goto(FirstRoom_rm);
+        break;
 }
+
+
+
 

@@ -4,3 +4,4 @@
 
 global.contador_respuestas = 0;
 global.room_origin = "";
+global.current_word = "condena";

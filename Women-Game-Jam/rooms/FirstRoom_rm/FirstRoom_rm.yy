@@ -18,7 +18,6 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"puzzles","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_184A0A97","properties":[],"isDnd":false,"objectId":{"name":"clickBoton_obj","path":"objects/clickBoton_obj/clickBoton_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":448.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C423770","properties":[],"isDnd":false,"objectId":{"name":"clickBoton_obj","path":"objects/clickBoton_obj/clickBoton_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A8F15FF","properties":[],"isDnd":false,"objectId":{"name":"obj_stroop","path":"objects/obj_stroop/obj_stroop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":608.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_549E0556","properties":[],"isDnd":false,"objectId":{"name":"clickBoton_obj","path":"objects/clickBoton_obj/clickBoton_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":96.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -30,7 +29,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_184A0A97","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},
-    {"name":"inst_5C423770","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},
     {"name":"inst_4A8F15FF","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},
     {"name":"inst_549E0556","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},
   ],

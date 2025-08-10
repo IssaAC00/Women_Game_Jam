@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "coreObj",
-    "path": "folders/Objects/coreObj.yy",
+    "name": "GamePuzzel2objs",
+    "path": "folders/Objects/GamePuzzel2objs.yy",
   },
 }
