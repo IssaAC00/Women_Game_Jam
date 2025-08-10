@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_clickable_finderpuzzle_1",
+  "name": "w2",
   "spriteId": {
     "name": "Sprite7",
     "path": "sprites/Sprite7/Sprite7.yy",
