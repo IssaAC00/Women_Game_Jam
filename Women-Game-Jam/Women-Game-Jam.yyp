@@ -4,7 +4,9 @@
   "name": "Women-Game-Jam",
   "resources": [
     {"id":{"name":"button","path":"sprites/button/button.yy",},"order":1,},
+    {"id":{"name":"obj_clickable_finderpuzzle_1","path":"objects/obj_clickable_finderpuzzle_1/obj_clickable_finderpuzzle_1.yy",},"order":8,},
     {"id":{"name":"devil","path":"sprites/devil/devil.yy",},"order":4,},
+    {"id":{"name":"rm_finder_puzzle","path":"rooms/rm_finder_puzzle/rm_finder_puzzle.yy",},"order":2,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":2,},
     {"id":{"name":"FirstRoom_rm","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},"order":0,},
     {"id":{"name":"controlador","path":"objects/controlador/controlador.yy",},"order":4,},
@@ -13,12 +15,16 @@
     {"id":{"name":"clickBoton_obj","path":"objects/clickBoton_obj/clickBoton_obj.yy",},"order":2,},
     {"id":{"name":"DevilPainted","path":"sprites/DevilPainted/DevilPainted.yy",},"order":5,},
     {"id":{"name":"obj_boton_volver","path":"objects/obj_boton_volver/obj_boton_volver.yy",},"order":3,},
+    {"id":{"name":"spr_weird_bg","path":"sprites/spr_weird_bg/spr_weird_bg.yy",},"order":8,},
     {"id":{"name":"obj_stroop","path":"objects/obj_stroop/obj_stroop.yy",},"order":7,},
     {"id":{"name":"control","path":"sprites/control/control.yy",},"order":2,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},"order":0,},
     {"id":{"name":"controlador_Puzzle2","path":"objects/controlador_Puzzle2/controlador_Puzzle2.yy",},"order":5,},
+    {"id":{"name":"spr_finder_puzzle_1","path":"sprites/spr_finder_puzzle_1/spr_finder_puzzle_1.yy",},"order":2,},
     {"id":{"name":"clue","path":"objects/clue/clue.yy",},"order":3,},
+    {"id":{"name":"spr_finder_puzzle_bg","path":"sprites/spr_finder_puzzle_bg/spr_finder_puzzle_bg.yy",},"order":0,},
+    {"id":{"name":"obj_finder_puzzle","path":"objects/obj_finder_puzzle/obj_finder_puzzle.yy",},"order":8,},
     {"id":{"name":"clickBotonLast_obj","path":"objects/clickBotonLast_obj/clickBotonLast_obj.yy",},"order":7,},
     {"id":{"name":"clickBoton2nd_obj","path":"objects/clickBoton2nd_obj/clickBoton2nd_obj.yy",},"order":6,},
     {"id":{"name":"justieces","path":"sprites/justieces/justieces.yy",},"order":3,},
@@ -45,6 +51,7 @@
     {"id":{"name":"LastRoom_rm","path":"rooms/LastRoom_rm/LastRoom_rm.yy",},"order":2,},
     {"id":{"name":"boton","path":"objects/boton/boton.yy",},"order":0,},
     {"id":{"name":"SecondRoom_rm","path":"rooms/SecondRoom_rm/SecondRoom_rm.yy",},"order":1,},
+    {"id":{"name":"spr_tiled_bg","path":"sprites/spr_tiled_bg/spr_tiled_bg.yy",},"order":9,},
     {"id":{"name":"Sample1","path":"sprites/Sample1/Sample1.yy",},"order":0,},
     {"id":{"name":"Final","path":"rooms/Final/Final.yy",},"order":1,},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},"order":3,},
@@ -70,6 +77,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Inicio","path":"rooms/Inicio/Inicio.yy",},},
+    {"roomId":{"name":"rm_finder_puzzle","path":"rooms/rm_finder_puzzle/rm_finder_puzzle.yy",},},
     {"roomId":{"name":"SecondPuzzel_rm","path":"rooms/SecondPuzzel_rm/SecondPuzzel_rm.yy",},},
     {"roomId":{"name":"FirstRoom_rm","path":"rooms/FirstRoom_rm/FirstRoom_rm.yy",},},
     {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
@@ -104,6 +112,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tarot","folderPath":"folders/Sprites/Tarot.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Finder Puzzle","folderPath":"folders/Sprites/Finder Puzzle.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -115,6 +124,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"OldNewspaperTypes.ttf","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.0.2.51",
+    "IDEVersion": "2022.0.3.85",
   },
 }
