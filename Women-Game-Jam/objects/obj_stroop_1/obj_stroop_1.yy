@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_stroop_1",
-  "spriteId": {
-    "name": "enter_room",
-    "path": "sprites/enter_room/enter_room.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -30,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "PuzzleObj",
+    "path": "folders/Objects/PuzzleObj.yy",
   },
 }

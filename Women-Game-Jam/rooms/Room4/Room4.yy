@@ -21,6 +21,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B036241_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_boton_rojo","path":"objects/obj_boton_rojo/obj_boton_rojo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52716E65_1_1","properties":[],"isDnd":false,"objectId":{"name":"obj_boton_verde","path":"objects/obj_boton_verde/obj_boton_verde.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":448.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C485093_1","properties":[],"isDnd":false,"objectId":{"name":"obj_boton_volver","path":"objects/obj_boton_volver/obj_boton_volver.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FA545D5","properties":[],"isDnd":false,"objectId":{"name":"obj_controlador_3","path":"objects/obj_controlador_3/obj_controlador_3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":320.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3C43B142_1_1","properties":[],"isDnd":false,"objectId":{"name":"texto","path":"objects/texto/texto.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":12.8,"scaleY":12.60001,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":0.0,},
@@ -36,6 +37,7 @@
     {"name":"inst_52716E65_1_1","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_3C43B142_1_1","path":"rooms/Room4/Room4.yy",},
     {"name":"inst_C485093_1","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_6FA545D5","path":"rooms/Room4/Room4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -59,7 +61,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Salas",
-    "path": "folders/Salas.yy",
+    "name": "FirstPuzzle",
+    "path": "folders/Rooms/Puzzels/FirstPuzzle.yy",
   },
 }

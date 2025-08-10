@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_boton_rojo",
-  "spriteId": {
-    "name": "boton",
-    "path": "sprites/boton/boton.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -34,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "PuzzleObj",
+    "path": "folders/Objects/PuzzleObj.yy",
   },
 }

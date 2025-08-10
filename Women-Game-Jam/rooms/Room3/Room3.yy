@@ -61,7 +61,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Salas",
-    "path": "folders/Salas.yy",
+    "name": "FirstPuzzle",
+    "path": "folders/Rooms/Puzzels/FirstPuzzle.yy",
   },
 }
