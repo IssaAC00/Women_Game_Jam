@@ -19,7 +19,7 @@ switch(global.room_origin) {
         
         // Crear sprites específicos en la layer de assets
         layer_sprite_create(assets_layer, x_pos1, y_pos1, DevilPainted);
-        layer_sprite_create(assets_layer, x_pos2, y_pos2, justieces);
+        layer_sprite_create(assets_layer, x_pos2, y_pos2, pintados1);
         
         break;
         
@@ -36,9 +36,9 @@ switch(global.room_origin) {
         var y_pos3 = 32;
         
         // Crear sprites de cartas de tarot
-        layer_sprite_create(assets_layer, x_pos1, y_pos1, cartaTarot1);
-        layer_sprite_create(assets_layer, x_pos2, y_pos2, cartaTarot2);
-        layer_sprite_create(assets_layer, x_pos3, y_pos3, cartaTarot3);
+        layer_sprite_create(assets_layer, x_pos1, y_pos1, pintados_2);
+        layer_sprite_create(assets_layer, x_pos2, y_pos2, pintados3);
+        layer_sprite_create(assets_layer, x_pos3, y_pos3, pintados4);
         
         break;
         
@@ -62,11 +62,12 @@ switch(global.room_origin) {
         var y_pos5 = 200;
         
         // Crear todos los sprites
-        layer_sprite_create(assets_layer, x_pos1, y_pos1, DevilPainted);
-        layer_sprite_create(assets_layer, x_pos2, y_pos2, justieces);
-        layer_sprite_create(assets_layer, x_pos3, y_pos3, cartaTarot1);
-        layer_sprite_create(assets_layer, x_pos4, y_pos4, cartaTarot2);
-        layer_sprite_create(assets_layer, x_pos5, y_pos5, cartaTarot3);
+       layer_sprite_create(assets_layer, x_pos1, y_pos1, DevilPainted);
+       layer_sprite_create(assets_layer, x_pos2, y_pos2, pintados1);
+		layer_sprite_create(assets_layer, x_pos3, y_pos3, pintados_2);
+        layer_sprite_create(assets_layer, x_pos4, y_pos4, pintados3);
+        layer_sprite_create(assets_layer, x_pos5, y_pos5, pintados4);
+        
         
         break;
         

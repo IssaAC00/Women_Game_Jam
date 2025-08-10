@@ -22,7 +22,7 @@ if (feedback_message != "") {
 }
 
 // Instrucciones
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_text(x, y - 60, "Describe las imagenes con una palabra y presiona Enter:");
 
 // Restablecer
