@@ -55,6 +55,6 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Paths/Rooms/Rooms.yy",
+    "path": "folders/Rooms/Rooms.yy",
   },
 }

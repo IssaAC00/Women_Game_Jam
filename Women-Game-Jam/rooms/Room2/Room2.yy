@@ -59,6 +59,6 @@
   },
   "parent": {
     "name": "FirstPuzzle",
-    "path": "folders/Paths/Rooms/Puzzels/FirstPuzzle.yy",
+    "path": "folders/Rooms/Puzzels/FirstPuzzle.yy",
   },
 }
