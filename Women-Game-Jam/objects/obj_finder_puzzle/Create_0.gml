@@ -1,4 +1,4 @@
-prompt_text = "Confirma que eres real\nHaz click en el dispositivo de cortar"
+prompt_text = puzzle_text
 art_scale = .52
 center_x = room_width/2
 center_y = room_height/2
