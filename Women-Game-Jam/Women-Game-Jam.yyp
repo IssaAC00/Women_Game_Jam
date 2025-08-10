@@ -21,7 +21,7 @@
     {"id":{"name":"control","path":"sprites/control/control.yy",},"order":2,},
     {"id":{"name":"descarga__10_","path":"sprites/descarga__10_/descarga__10_.yy",},"order":10,},
     {"id":{"name":"pintados3","path":"sprites/pintados3/pintados3.yy",},"order":8,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"color_puzzle_rm","path":"rooms/color_puzzle_rm/color_puzzle_rm.yy",},"order":1,},
     {"id":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},"order":0,},
     {"id":{"name":"controlador_Puzzle2","path":"objects/controlador_Puzzle2/controlador_Puzzle2.yy",},"order":5,},
     {"id":{"name":"spr_finder_puzzle_1","path":"sprites/spr_finder_puzzle_1/spr_finder_puzzle_1.yy",},"order":2,},
@@ -89,7 +89,7 @@
     {"roomId":{"name":"LastRoom_rm","path":"rooms/LastRoom_rm/LastRoom_rm.yy",},},
     {"roomId":{"name":"TestRoom1","path":"rooms/TestRoom1/TestRoom1.yy",},},
     {"roomId":{"name":"TestRoom2","path":"rooms/TestRoom2/TestRoom2.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"color_puzzle_rm","path":"rooms/color_puzzle_rm/color_puzzle_rm.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},

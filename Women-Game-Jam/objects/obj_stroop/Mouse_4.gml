@@ -14,4 +14,4 @@ if (sala_actual == "FirstRoom_rm") {
     }
 
 
-room_goto(Room2);
+room_goto(color_puzzle_rm);
