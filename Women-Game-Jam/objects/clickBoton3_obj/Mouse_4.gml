@@ -14,8 +14,8 @@ var accion_ejecutada = false;
 show_debug_message("Contador respuestas: " + string(global.contador_respuestas));
 
 // Verificar botón especial que requiere contador == 2 PRIMERO
-if (x >= 700 && x <= 950 && y >= 500 && y <= 700) {
-    global.room_origin = "last";
+if (x >= 300 && x <= 500 && y >= 300 && y <= 700) {
+  
 	show_debug_message("Contador respuestas:2 " + string(global.contador_respuestas));
     room_goto(Final);
     accion_ejecutada = true;
