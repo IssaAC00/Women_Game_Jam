@@ -7,4 +7,4 @@ global.room_origin = "";
 global.current_word = "condena";
 
 // Reproducir música de fondo en bucle infinito
-audio_play_sound(snd_background_music, 1, true);
+//audio_play_sound(snd_background_music, 1, true);
