@@ -3,3 +3,4 @@
 
 
 global.contador_respuestas = 0;
+global.room_origin = "";
