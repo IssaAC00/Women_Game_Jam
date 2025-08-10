@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_stroop_1",
+  "name": "obj_stroop",
   "spriteId": {
     "name": "enterRoom",
     "path": "sprites/enterRoom/enterRoom.yy",

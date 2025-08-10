@@ -1,3 +1,5 @@
+draw_set_font(OldNewsPaper);
+
 // Coordenadas base del cuadro
 var cuadro_x = 256;
 var cuadro_y = 0;
@@ -6,11 +8,7 @@ var cuadro_y = 0;
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
-draw_text_transformed(cuadro_x + 450, cuadro_y + 300, "Cual es el color correcto?", 2, 2, 0);
-
-// Dibujar información del nivel
-var nivel_mostrar = min(nivel_actual + 1, total_niveles);
-draw_text(cuadro_x + 700, cuadro_y + 200, "Nivel: " + string(nivel_mostrar) + "/ 3");
+draw_text_transformed(cuadro_x + 450, cuadro_y + 300, "Selecciona el color correcto", 2, 2, 0);
 
 
 // Dibujar la palabra del nivel actual

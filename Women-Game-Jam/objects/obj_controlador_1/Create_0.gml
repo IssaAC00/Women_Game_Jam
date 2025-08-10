@@ -47,7 +47,7 @@ function cargar_nivel() {
         mensaje_resultado = "";
     } else {
         palabra_actual = "";
-        mensaje_resultado = "¡Haz completado el puzzle!";
+        mensaje_resultado = "Haz completado el puzzle";
         juego_completado = true;
         juego_terminado = true;
     }

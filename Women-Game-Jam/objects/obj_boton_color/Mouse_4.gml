@@ -1,3 +1,5 @@
+draw_set_font(OldNewsPaper);
+
 // Buscar qué controlador existe en esta room
 var controlador_id = noone;
 
@@ -17,10 +19,10 @@ if (controlador_id.juego_terminado) exit;
 
 // Verificar respuesta
 if (mi_color == controlador_id.color_correcto_nivel) {
-    controlador_id.mensaje_resultado = "¡CORRECTO!";
+    controlador_id.mensaje_resultado = ":)";
     alarm[0] = 120;
 } else {
-    controlador_id.mensaje_resultado = "INCORRECTO. Intenta de nuevo.";
+    controlador_id.mensaje_resultado = "...";
     alarm[1] = 90;
 }
 
