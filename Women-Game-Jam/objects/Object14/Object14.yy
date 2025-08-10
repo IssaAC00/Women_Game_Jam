@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "clickBotonLast_obj",
+  "name": "Object14",
   "spriteId": null,
   "solid": false,
   "visible": true,

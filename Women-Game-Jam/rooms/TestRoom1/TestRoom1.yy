@@ -46,6 +46,6 @@
   },
   "parent": {
     "name": "Test",
-    "path": "folders/Rooms/Test.yy",
+    "path": "folders/Paths/Rooms/Test.yy",
   },
 }
