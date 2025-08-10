@@ -1,0 +1,1 @@
+room_goto(rm_finder_puzzle)
