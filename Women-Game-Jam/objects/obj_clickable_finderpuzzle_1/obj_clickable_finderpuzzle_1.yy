@@ -33,4 +33,7 @@
     "name": "GamePuzzel2objs",
     "path": "folders/Objects/GamePuzzel2objs.yy",
   },
+  "tags": [
+    "button",
+  ],
 }
