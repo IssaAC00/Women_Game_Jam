@@ -6,7 +6,7 @@
 global.contador_respuestas += 1;
 
 // Verificar si llegó a 9
-if (global.contador_respuestas >= 9) {
+if (global.contador_respuestas >= 2) {
     room_goto(Final); // Cambiar a la room "final"
 } else {
     // Aquí puedes agregar código para continuar al siguiente puzzle
