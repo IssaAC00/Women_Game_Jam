@@ -17,6 +17,7 @@
     {"id":{"name":"obj_controlador_stroop","path":"objects/obj_controlador_stroop/obj_controlador_stroop.yy",},"order":8,},
     {"id":{"name":"obj_stroop","path":"objects/obj_stroop/obj_stroop.yy",},"order":7,},
     {"id":{"name":"fondoInicio","path":"sprites/fondoInicio/fondoInicio.yy",},"order":11,},
+    {"id":{"name":"clickBoton3_obj","path":"objects/clickBoton3_obj/clickBoton3_obj.yy",},"order":9,},
     {"id":{"name":"control","path":"sprites/control/control.yy",},"order":2,},
     {"id":{"name":"descarga__10_","path":"sprites/descarga__10_/descarga__10_.yy",},"order":10,},
     {"id":{"name":"pintados3","path":"sprites/pintados3/pintados3.yy",},"order":8,},
