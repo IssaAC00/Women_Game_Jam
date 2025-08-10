@@ -1,3 +1,22 @@
+// Función para convertir decimal a hexadecimal
+function dec_to_hex(decimal) {
+    if (decimal == 0) return "00";
+    
+    var hex_chars = "0123456789ABCDEF";
+    var result = "";
+    
+    while (decimal > 0) {
+        var remainder = decimal mod 16;
+        result = string_char_at(hex_chars, remainder + 1) + result;
+        decimal = decimal div 16;
+    }
+    
+    // Asegurar que tenga 2 dígitos
+    if (string_length(result) == 1) result = "0" + result;
+    
+    return result;
+}
+
 // Sistema de dificultad hexadecimal
 nivel_actual = 0;
 total_niveles = 6;
@@ -52,9 +71,11 @@ function cargar_nivel() {
         color_para_mostrar = nivel.color_mostrado;
         
         // Configurar colores básicos en los botones (siempre los mismos)
-        with (obj_boton_azul) mi_color = c_blue;
-        with (obj_boton_verde) mi_color = c_green;
-        with (obj_boton_rojo) mi_color = c_red;
+		with (obj_boton_color) {
+	    if (mi_posicion == 0) mi_color = c_blue;      // Botón izquierdo
+	    else if (mi_posicion == 1) mi_color = c_green; // Botón central
+	    else if (mi_posicion == 2) mi_color = c_red;   // Botón derecho
+		}
         
         juego_terminado = false;
         mensaje_resultado = "";

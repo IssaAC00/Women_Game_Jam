@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_boton_verde",
-  "spriteId": null,
+  "name": "obj_boton_color",
+  "spriteId": {
+    "name": "button",
+    "path": "sprites/button/button.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

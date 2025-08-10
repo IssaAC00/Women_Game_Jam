@@ -52,9 +52,11 @@ function cargar_nivel() {
         color_correcto_nivel = nivel.color_correcto;
         
         // Configurar colores de tonos en los botones
-        with (obj_boton_azul) mi_color = other.niveles[other.nivel_actual].colores_botones[0];
-        with (obj_boton_verde) mi_color = other.niveles[other.nivel_actual].colores_botones[1];
-        with (obj_boton_rojo) mi_color = other.niveles[other.nivel_actual].colores_botones[2];
+		with (obj_boton_color) {
+		if (mi_posicion == 0) mi_color = other.niveles[other.nivel_actual].colores_botones[0];
+		else if (mi_posicion == 1) mi_color = other.niveles[other.nivel_actual].colores_botones[1];
+		else if (mi_posicion == 2) mi_color = other.niveles[other.nivel_actual].colores_botones[2];
+		}
         
         juego_terminado = false;
         mensaje_resultado = "";

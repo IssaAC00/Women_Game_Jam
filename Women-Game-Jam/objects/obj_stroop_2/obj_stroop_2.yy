@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_stroop_2",
-  "spriteId": null,
+  "spriteId": {
+    "name": "enterRoom",
+    "path": "sprites/enterRoom/enterRoom.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

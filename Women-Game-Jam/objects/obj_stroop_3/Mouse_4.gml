@@ -5,4 +5,4 @@ with (obj_controlador_3) {
     cargar_nivel();
 }
 
-room_goto(Room4)
+room_goto(Room2)
