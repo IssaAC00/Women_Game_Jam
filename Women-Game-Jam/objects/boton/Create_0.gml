@@ -3,7 +3,7 @@
 
 
 // Hacer el botón invisible
-image_alpha = 0;
+
 
 // Configuración del botón
 target_room = FirstRoom_rm; // La room a la que quieres ir
