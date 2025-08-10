@@ -25,6 +25,7 @@
     {"id":{"name":"Back1","path":"sprites/Back1/Back1.yy",},"order":5,},
     {"id":{"name":"fondo1Room","path":"sprites/fondo1Room/fondo1Room.yy",},"order":1,},
     {"id":{"name":"secondBack","path":"sprites/secondBack/secondBack.yy",},"order":3,},
+    {"id":{"name":"Second_Bakc","path":"sprites/Second_Bakc/Second_Bakc.yy",},"order":7,},
     {"id":{"name":"cartaTarot1","path":"sprites/cartaTarot1/cartaTarot1.yy",},"order":1,},
     {"id":{"name":"secondBack_1","path":"sprites/secondBack_1/secondBack_1.yy",},"order":6,},
     {"id":{"name":"enterRoom","path":"sprites/enterRoom/enterRoom.yy",},"order":4,},
@@ -112,6 +113,6 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"OldNewspaperTypes.ttf","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.0.3.85",
+    "IDEVersion": "2022.0.2.51",
   },
 }
