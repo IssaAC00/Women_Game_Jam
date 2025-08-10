@@ -19,6 +19,7 @@ if (!mouse_over && hover_effect) {
 // Detectar click
 if (mouse_check_button_pressed(mb_left) && mouse_over) {
     pressed = true;
+	global.room_origin = "first";
     // audio_play_sound(snd_click, 1, false); // Sonido de click
     
     // Cambiar de escena después de un pequeño delay (opcional)

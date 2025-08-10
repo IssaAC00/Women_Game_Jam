@@ -1,22 +1,35 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Variable para controlar si ya se ejecutó una acción
+var accion_ejecutada = false;
+show_debug_message("Contador respuestas: " + string(global.contador_respuestas));
 
-// Detectar la posición del objeto y redirigir según la ubicación
-if (x >= 400 && x <= 600 && y >= 400 && y <= 600) {
-    // Botón del centro-abajo (x:544, y:480) - Ir a SecondPuzzel_rm
+// Verificar botón especial que requiere contador == 2 PRIMERO
+if (x >= 700 && x <= 900 && y >= 80 && y <= 150) {
+    global.room_origin = "second";
+	show_debug_message("Contador respuestas:2 " + string(global.contador_respuestas));
+    room_goto(SecondRoom_rm);
+    accion_ejecutada = true;
+}
+
+// Verificar otros botones solo si no se ejecutó la acción anterior
+if ((x >= 400 && x <= 600 && y >= 400 && y <= 600) && !accion_ejecutada) {
     room_goto(SecondPuzzel_rm);
+    accion_ejecutada = true;
 }
-else if (x >= 900 && x <= 1100 && y >= 200 && y <= 400) {
-    // Botón de la derecha-centro (x:1024, y:256) - Ir a SecondRoom_rm
+
+if ((x >= 900 && x <= 1100 && y >= 200 && y <= 400) && !accion_ejecutada) {
     room_goto(TestRoom1);
+    accion_ejecutada = true;
 }
-else if (x >= 350 && x <= 550 && y >= 50 && y <= 150) {
-    // Botón de arriba-izquierda (x:448, y:96) - Ir a LatsRoom_rm
+
+if ((x >= 350 && x <= 550 && y >= 50 && y <= 150) && !accion_ejecutada) {
     room_goto(Room2);
+    accion_ejecutada = true;
 }
-else {
-    // En caso de que no coincida con ninguna posición específica
-    // Puedes agregar un comportamiento por defecto o mostrar un mensaje
-    show_debug_message("Posición del botón no reconocida: x=" + string(x) + ", y=" + string(y));
+
+// Si no se ejecutó ninguna acción, mostrar mensaje
+if (!accion_ejecutada) {
+    draw_text(x, y - 60, "No se puede, completa los puzzles");
 }
