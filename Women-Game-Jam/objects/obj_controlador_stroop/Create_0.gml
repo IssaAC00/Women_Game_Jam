@@ -43,23 +43,23 @@ function configurar_modo_basico() {
 function configurar_modo_tonos() {
 niveles = [];
 niveles[0] = {
-    palabra: "ROSA",
-    color_escrito: make_color_rgb(255, 192, 203), 
-    color_correcto: make_color_rgb(255, 192, 203),
+    palabra: "NARANJA",
+    color_escrito: make_color_rgb(255, 102, 79), 
+    color_correcto: make_color_rgb(255, 102, 79),
     colores_botones: [
-        make_color_rgb(255, 192, 203), // correcto
-        make_color_rgb(255, 20, 147),  
-        make_color_rgb(255, 105, 180)  
+        make_color_rgb(255, 102, 79), // correcto
+        make_color_rgb(255, 110, 80),  
+        make_color_rgb(255, 115, 60)  
     ]
 };
 niveles[1] = {
     palabra: "AZUL",
-    color_escrito: make_color_rgb(163, 185, 230),
-    color_correcto: make_color_rgb(163, 185, 230),
+    color_escrito: make_color_rgb(0, 52, 136),
+    color_correcto: make_color_rgb(0, 52, 136),
     colores_botones: [
-        make_color_rgb(127, 158, 220),
-        make_color_rgb(163, 185, 230), // correcto
-        make_color_rgb(91, 131, 210)   
+        make_color_rgb(0, 48, 127),
+        make_color_rgb(0, 52, 136), // correcto
+        make_color_rgb(0, 54, 142)   
     ]
 };
 niveles[2] = {
@@ -78,56 +78,56 @@ niveles[2] = {
 function configurar_modo_hexadecimal() {
 niveles = [];
 niveles[0] = {
-    codigo_hex: "#FF0000",  // Rojo
-    color_correcto: make_color_rgb(255, 0, 0),
+    codigo_hex: "#6FF527",  // Verde neón
+    color_correcto: make_color_rgb(111, 245, 39),
     colores_botones: [
-        make_color_rgb(255, 0, 0),   // correcto - #FF0000
-        make_color_rgb(0, 255, 0),   // verde - #00FF00
-        make_color_rgb(0, 0, 255)    // azul - #0000FF
+        make_color_rgb(111, 245, 39),   // correcto
+        make_color_rgb(245, 39, 163),   
+        make_color_rgb(0, 255, 255)     
     ]
 };
 niveles[1] = {
-    codigo_hex: "#00FF00",  // Verde
-    color_correcto: make_color_rgb(0, 255, 0),
+    codigo_hex: "#F527A3",  // Rosado neón
+    color_correcto: make_color_rgb(245, 245, 39),
     colores_botones: [
-        make_color_rgb(255, 0, 0),   // rojo - #FF0000
-        make_color_rgb(0, 255, 0),   // correcto - #00FF00
-        make_color_rgb(0, 0, 255)    // azul - #0000FF
+        make_color_rgb(245, 245, 39),   // correcto
+        make_color_rgb(0, 255, 0),   
+        make_color_rgb(255, 255, 0)    
     ]
 };
 niveles[2] = {
     codigo_hex: "#0000FF",  // Azul
     color_correcto: make_color_rgb(0, 0, 255),
     colores_botones: [
-        make_color_rgb(255, 0, 0),   // rojo - #FF0000
-        make_color_rgb(0, 255, 0),   // verde - #00FF00
-        make_color_rgb(0, 0, 255)    // correcto - #0000FF
+        make_color_rgb(255, 0, 0),   
+        make_color_rgb(0, 255, 0),   
+        make_color_rgb(0, 0, 255)    // correcto 
     ]
 };
 niveles[3] = {
-    codigo_hex: "#FFFF00",  // Amarillo
+    codigo_hex: "#FFFF00",  
     color_correcto: make_color_rgb(255, 255, 0),
     colores_botones: [
-        make_color_rgb(255, 255, 0), // correcto - #FFFF00
-        make_color_rgb(255, 0, 255), // magenta - #FF00FF
-        make_color_rgb(0, 255, 255)  // cyan - #00FFFF
+        make_color_rgb(255, 255, 0), // correcto 
+        make_color_rgb(255, 0, 255), 
+        make_color_rgb(0, 255, 255)  
     ]
 };
 niveles[4] = {
     codigo_hex: "#FF00FF",  // Magenta
     color_correcto: make_color_rgb(255, 0, 255),
     colores_botones: [
-        make_color_rgb(255, 255, 0), // amarillo - #FFFF00
-        make_color_rgb(255, 0, 255), // correcto - #FF00FF
-        make_color_rgb(0, 255, 255)  // cyan - #00FFFF
+        make_color_rgb(255, 255, 0), 
+        make_color_rgb(255, 0, 255), // correcto 
+        make_color_rgb(255, 0, 0) 
     ]
 };
 niveles[5] = {
     codigo_hex: "#00FFFF",  // Cyan
     color_correcto: make_color_rgb(0, 255, 255),
     colores_botones: [
-        make_color_rgb(255, 255, 0), // amarillo - #FFFF00
-        make_color_rgb(255, 0, 255), // magenta - #FF00FF
+        make_color_rgb(255, 255, 0), 
+        make_color_rgb(111, 245, 39), 
         make_color_rgb(0, 255, 255)  // correcto - #00FFFF
     ]
 };
