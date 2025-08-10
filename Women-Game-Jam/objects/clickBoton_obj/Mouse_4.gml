@@ -13,7 +13,7 @@ else if (x >= 900 && x <= 1100 && y >= 200 && y <= 400) {
 }
 else if (x >= 350 && x <= 550 && y >= 50 && y <= 150) {
     // Botón de arriba-izquierda (x:448, y:96) - Ir a LatsRoom_rm
-    room_goto(TestRoom2);
+    room_goto(Room2);
 }
 else {
     // En caso de que no coincida con ninguna posición específica
