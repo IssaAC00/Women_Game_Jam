@@ -33,4 +33,7 @@
     "name": "PuzzleObj",
     "path": "folders/Objects/PuzzleObj.yy",
   },
+  "tags": [
+    "button",
+  ],
 }

@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "w2",
+  "name": "obj_boton_volver",
   "spriteId": {
-    "name": "Sprite7",
-    "path": "sprites/Sprite7/Sprite7.yy",
+    "name": "spr_close",
+    "path": "sprites/spr_close/spr_close.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -30,10 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GamePuzzel2objs",
-    "path": "folders/Objects/GamePuzzel2objs.yy",
+    "name": "PuzzleObj",
+    "path": "folders/Objects/PuzzleObj.yy",
   },
-  "tags": [
-    "button",
-  ],
 }

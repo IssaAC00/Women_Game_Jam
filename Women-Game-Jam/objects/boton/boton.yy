@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "boton",
   "spriteId": {
-    "name": "secondBack",
-    "path": "sprites/secondBack/secondBack.yy",
+    "name": "Sprite9",
+    "path": "sprites/Sprite9/Sprite9.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,4 +35,7 @@
     "name": "GamePuzzel2objs",
     "path": "folders/Objects/GamePuzzel2objs.yy",
   },
+  "tags": [
+    "button",
+  ],
 }
