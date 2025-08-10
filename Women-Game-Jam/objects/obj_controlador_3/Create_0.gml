@@ -1,3 +1,5 @@
+
+
 // Sistema de dificultad hexadecimal
 nivel_actual = 0;
 total_niveles = 6;
@@ -7,33 +9,57 @@ juego_completado = false;
 niveles = [];
 niveles[0] = {
     codigo_hex: "#FF0000",  // Rojo
-    color_correcto: c_red,
-    color_mostrado: make_color_rgb(255, 0, 0)
+    color_correcto: make_color_rgb(255, 0, 0),
+    colores_botones: [
+        make_color_rgb(255, 0, 0),   // correcto - #FF0000
+        make_color_rgb(0, 255, 0),   // verde - #00FF00
+        make_color_rgb(0, 0, 255)    // azul - #0000FF
+    ]
 };
 niveles[1] = {
     codigo_hex: "#00FF00",  // Verde
-    color_correcto: c_green,
-    color_mostrado: make_color_rgb(0, 255, 0)
+    color_correcto: make_color_rgb(0, 255, 0),
+    colores_botones: [
+        make_color_rgb(255, 0, 0),   // rojo - #FF0000
+        make_color_rgb(0, 255, 0),   // correcto - #00FF00
+        make_color_rgb(0, 0, 255)    // azul - #0000FF
+    ]
 };
 niveles[2] = {
     codigo_hex: "#0000FF",  // Azul
-    color_correcto: c_blue,
-    color_mostrado: make_color_rgb(0, 0, 255)
+    color_correcto: make_color_rgb(0, 0, 255),
+    colores_botones: [
+        make_color_rgb(255, 0, 0),   // rojo - #FF0000
+        make_color_rgb(0, 255, 0),   // verde - #00FF00
+        make_color_rgb(0, 0, 255)    // correcto - #0000FF
+    ]
 };
 niveles[3] = {
     codigo_hex: "#FFFF00",  // Amarillo
-    color_correcto: c_yellow,
-    color_mostrado: make_color_rgb(255, 255, 0)
+    color_correcto: make_color_rgb(255, 255, 0),
+    colores_botones: [
+        make_color_rgb(255, 255, 0), // correcto - #FFFF00
+        make_color_rgb(255, 0, 255), // magenta - #FF00FF
+        make_color_rgb(0, 255, 255)  // cyan - #00FFFF
+    ]
 };
 niveles[4] = {
     codigo_hex: "#FF00FF",  // Magenta
-    color_correcto: c_fuchsia,
-    color_mostrado: make_color_rgb(255, 0, 255)
+    color_correcto: make_color_rgb(255, 0, 255),
+    colores_botones: [
+        make_color_rgb(255, 255, 0), // amarillo - #FFFF00
+        make_color_rgb(255, 0, 255), // correcto - #FF00FF
+        make_color_rgb(0, 255, 255)  // cyan - #00FFFF
+    ]
 };
 niveles[5] = {
     codigo_hex: "#00FFFF",  // Cyan
-    color_correcto: c_aqua,
-    color_mostrado: make_color_rgb(0, 255, 255)
+    color_correcto: make_color_rgb(0, 255, 255),
+    colores_botones: [
+        make_color_rgb(255, 255, 0), // amarillo - #FFFF00
+        make_color_rgb(255, 0, 255), // magenta - #FF00FF
+        make_color_rgb(0, 255, 255)  // correcto - #00FFFF
+    ]
 };
 
 // Variables del juego
@@ -49,18 +75,22 @@ function cargar_nivel() {
         var nivel = niveles[nivel_actual];
         codigo_actual = nivel.codigo_hex;
         color_correcto_nivel = nivel.color_correcto;
-        color_para_mostrar = nivel.color_mostrado;
+        color_para_mostrar = nivel.color_correcto;
         
         // Configurar colores básicos en los botones (siempre los mismos)
-        with (obj_boton_azul) mi_color = c_blue;
-        with (obj_boton_verde) mi_color = c_green;
-        with (obj_boton_rojo) mi_color = c_red;
+        with (obj_boton_color) {
+            if (mi_posicion == 0) mi_color = other.niveles[other.nivel_actual].colores_botones[0];
+            else if (mi_posicion == 1) mi_color = other.niveles[other.nivel_actual].colores_botones[1];
+            else if (mi_posicion == 2) mi_color = other.niveles[other.nivel_actual].colores_botones[2];
+        }
+
+
         
         juego_terminado = false;
         mensaje_resultado = "";
     } else {
         codigo_actual = "";
-        mensaje_resultado = "¡Haz completado el puzzle hexadecimal!";
+        mensaje_resultado = "Haz completado el puzzle";
         juego_completado = true;
         juego_terminado = true;
     }

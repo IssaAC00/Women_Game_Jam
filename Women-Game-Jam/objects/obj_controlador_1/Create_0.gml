@@ -37,15 +37,17 @@ function cargar_nivel() {
         color_correcto_nivel = nivel.color_correcto;
         
         // Configurar colores básicos en los botones
-        with (obj_boton_azul) mi_color = c_blue;
-        with (obj_boton_verde) mi_color = c_green;
-        with (obj_boton_rojo) mi_color = c_red;
+		with (obj_boton_color) {
+	    if (mi_posicion == 0) mi_color = c_blue;      // Botón izquierdo
+	    else if (mi_posicion == 1) mi_color = c_green; // Botón central
+	    else if (mi_posicion == 2) mi_color = c_red;   // Botón derecho
+		}
         
         juego_terminado = false;
         mensaje_resultado = "";
     } else {
         palabra_actual = "";
-        mensaje_resultado = "¡Haz completado el puzzle!";
+        mensaje_resultado = "Haz completado el puzzle";
         juego_completado = true;
         juego_terminado = true;
     }

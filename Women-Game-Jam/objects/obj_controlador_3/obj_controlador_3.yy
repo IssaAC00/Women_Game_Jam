@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_controlador_3",
-  "spriteId": null,
+  "spriteId": {
+    "name": "control",
+    "path": "sprites/control/control.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

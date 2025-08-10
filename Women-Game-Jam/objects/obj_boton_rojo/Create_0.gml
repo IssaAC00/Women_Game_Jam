@@ -1,1 +1,0 @@
-mi_color = c_red; 
